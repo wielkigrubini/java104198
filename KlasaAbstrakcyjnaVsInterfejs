@@ -1,0 +1,10 @@
+KLASA ABSTRAKCYJNA
+Już sama nazwa może przybliżyć użytkownikowi znaczenie (a przy nieco głębszej analizie również cechy i funkcje) tego "narzędzia". Zatem:
+	1. Jest to klasa.
+	2. Jest abstrakcyjne- nie wiadomo jakie, nie istniejące.
+Bingo! Co to jednak znaczy w praktyce?
+W związku z tym, że jest to klasa wiemy, że klasy dziedziczące po niej, nie będą mogły dziedziczyć z żadnej innej klasy. 
+Abstrakcja natomiast świadczy o tym, że sama klasa "nie istnieje", tj. nie możemy stworzyć bezpośrednio obiektu tej klasy. Ale to nie koniec, bo abstrakcja dotyka również wnętrza klasy i pozwala na definiowanie, obok "tradycyjnych" (będących w pełni zdefiniowanych), metod abstrakcyjnych, tzn. takich, które muszą zostać nadpisane i zdefiniowane przez klasę dziedziczącą z klasy abstrakcyjnej (chyba, że klasa dziedzicząca też jest klasą absrakcyjną- wtedy oczywiście nie muszą).
+
+INTERFEJS
+Interfejs to szczególny przypadek abstrakcji. Pozwala na zdefiniowanie jakie metody muszą znaleźć się w klasie implementującej dany interfejs. Oznacza to, że interfejs zawiera TYLKO typy zwracane i nazwy metod, które mają zostać w jakikolwiek sposób zdefiniowane w funkcji implementującej dany interfejs, bez ich ciał. Klasa może implementować dowolną ilość interfejsów (bez żadnych ograniczeń).
